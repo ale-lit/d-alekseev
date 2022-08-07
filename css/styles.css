@@ -1,7 +1,6 @@
 * {
     font-family: 'Roboto', sans-serif;
 }
-
 html, body {
     background-color: #f6f7f9;
     margin: 0;
@@ -67,7 +66,6 @@ h2 {
     align-items: center;
     justify-content: space-between;
 }
-
 .header > div {
     display: flex;
     gap: 42px;
@@ -91,20 +89,35 @@ h2 {
 .work-list {
     padding-top: 152px;    
 }
-
 .work-list__items {
     display: flex;
     margin: 82px 0 90px;
     justify-content: space-between;
 }
-
 .work-list__items > div {
     width: 260px;
     font-size: 20px;
 }
-
 .work-list__items > div img {
     width: 178px;
     display: block;
     margin-bottom: 50px;
+}
+
+.portfolio {
+    padding-top: 244px;
+}
+.portfolio__items {
+    display: flex;
+    margin: 70px 0 75px;
+    gap: 67px;
+}
+.portfolio__items > div {
+    width: 33.3%;
+    font-size: 20px;
+}
+.portfolio__items > div img {
+    width: 100%;
+    display: block;
+    margin-bottom: 28px;
 }
